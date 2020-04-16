@@ -31,10 +31,7 @@ text.addEventListener('keyup', function(){
        if(request.status == 0) {
            alert('Ошибка с сетью, статус: ' + request.status)
        } 
-       if (request.status == 403) {
-            alert('Невалидный ключ');
-       }
-    }
+   }
     request.open('GET', url);
     request.send();
 });
