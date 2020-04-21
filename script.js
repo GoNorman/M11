@@ -3,7 +3,7 @@ let text = document.querySelector('.textEdit');
 
 text.addEventListener('keyup', function(){
     let request = new XMLHttpRequest();
-    let API_KEY = 'trnsl.1.1.20200412T222442Z.01b77dc060d151af.f59c51605a39bde952db9a4b6d13970f61e9d240';
+    let API_KEY = 'API_EXAMPLE'; // You must paste your API_KEY
     let url = 'https://translate.yandex.net/api/v1.5/tr.json/translate';
     let select = document.querySelector('.source').value;
     let select2 = document.querySelector('.finite').value;
